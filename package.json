@@ -1,0 +1,21 @@
+{
+  "name": "vara-hobe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "[\"rent\"",
+    "\"UI\"]"
+  ],
+  "author": "khorram khondkar",
+  "license": "MIT",
+  "dependencies": {
+    "bower": "^1.8.4"
+  },
+  "devDependencies": {
+    "angular": "^1.7.5"
+  }
+}
