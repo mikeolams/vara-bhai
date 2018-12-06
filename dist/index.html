@@ -10,6 +10,7 @@
     <script src="main.js"></script>
 </head>
 <body ng-app="rent">
+     <login-page ng-include="'src/views/login-page.html'" ng-controller='login-page.js as login-page'></login-page>
     <script>
         window.fbAsyncInit = function () {
             FB.init({
@@ -41,6 +42,5 @@
                 });
             }
     </script>
-    <login-page ng-include="'src/views/login-page.html'" ng-controller='login-page.js as login-page'></login-page>
 </body>
 </html>
